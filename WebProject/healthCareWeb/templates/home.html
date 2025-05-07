@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Prediction</title>
+    <style>
+        body {
+            background-image: url("{% static 'homePage/homeImageHealthCare.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .button-container button {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .button-container button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Health Prediction System</h1>
+    <div class="button-container">
+        <button onclick="window.location.href='{% url 'diabetes' %}'">Diabetes Prediction</button>
+        <button onclick="window.location.href='{% url 'breast_cancer' %}'">Breast Cancer Prediction</button>
+        <button onclick="window.location.href='{% url 'heart_fail' %}'">Heart Failure Prediction</button>
+    </div>
+</body>
+</html>

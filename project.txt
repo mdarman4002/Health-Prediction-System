@@ -1,0 +1,15 @@
+Nutrition and Diet Recommendation System: Create a model that analyzes patient dietary habits and health data to provide personalized nutrition and diet recommendations.
+
+------------------------------------------------------------------------------------------------------
+Telehealth Utilization for Breast Cancer: Analyze data on telehealth usage among breast cancer patients to identify trends, satisfaction, and outcomes, improving virtual care delivery.
+
+https://github.com/gscdit/Breast-Cancer-Detection/tree/master
+------------------------------------------------------------------------------------------------------
+Patient Support Chatbot: Build a natural language processing chatbot to provide information and support to breast cancer patients regarding treatment options, side effects, and coping strategies.
+
+------------------------------------------------------------------------------------------------------
+
+EDA and 98% accuracy
+Python · Comprehensive Diabetes Clinical Dataset(100k rows)
+
+https://www.kaggle.com/code/godoistvan/eda-and-98-accuracy
