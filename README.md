@@ -69,5 +69,4 @@ django
 ## Contributing
 Feel free to fork this project, submit issues, or create pull requests.
 
-## License
-This project is open-source and available under the MIT License.
+
